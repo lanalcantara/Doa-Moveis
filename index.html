@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoaMóveis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo_arvore.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">DoaMóveis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Doe aqui</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ONG'S</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Meus Anúncios</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Chat</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Para doação
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Sala</a></li>
+                            <li><a class="dropdown-item" href="#">Quarto</a></li>
+                            <li><a class="dropdown-item" href="#">Cozinha</a></li>
+                            <li><a class="dropdown-item" href="#">Demais dependências</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div id="imagem1">
+                <img src="inicial.png" alt="inicial">
+            </div>
+        </header>
+
+        <div class="hero-content">
+            <h1>DoaMóveis</h1>
+            <p>Conectando doadores e receptores de móveis, construindo um mundo sustentável.</p>
+            <a href="#about" class="btn">Saiba Mais</a>
+        </div>
+    
+    <!-- Sobre -->
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma plataforma que promove a reutilização de móveis, ajudando o meio ambiente e as comunidades locais.</p>
+        </div>
+    </section>
+
+    <div class="card" style="width: 18rem;">
+        <img src="mesa.jpg" class="cardimg" alt="imagem1">
+        <div class="card-body">
+          <h2 class="card-title">Mesa</h2>
+          <p class="card-text">Mesa 4 lugares.</p>
+          <a href="#" class="btn btn-primary">Eu quero!</a>
+        </div>
+      </div>
+            <!-- Imagem 2 -->
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <img class="img-fluid" src="images/image2.jpg" alt="Descrição da Imagem 2" />
+                    <h5 class="text-center mt-2">Nome do Item 2</h5>
+                </div>
+            </div>
+            <!-- Imagem 3 -->
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <img class="img-fluid" src="images/image3.jpg" alt="Descrição da Imagem 3" />
+                    <h5 class="text-center mt-2">Nome do Item 3</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section bg-dark text-white" style="background-image: url('images/banner.jpg'); background-size: cover; background-position: center;">
+    <div class="container px-4 px-lg-5 text-center">
+        <h2 class="mb-4">
+            <span class="highlight-text">Faça Parte do DoaMóveis!</span>
+        </h2>
+        <a class="btn btn-light btn-xl" href="#contact">Entre em Contato</a>
+    </div>
+</section>
+
+    <!-- Serviços -->
+    <section id="services">
+        <div class="container">
+            <h2>O que Oferecemos</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>Doações de Móveis</h3>
+                    <p>Encontre móveis doados perto de você.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Conexão Solidária</h3>
+                    <p>Conectamos doadores e receptores com facilidade.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Sustentabilidade</h3>
+                    <p>Reutilizar é o primeiro passo para preservar o planeta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+</body>
+</html>
