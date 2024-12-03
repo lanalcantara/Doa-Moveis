@@ -11,6 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-brown" style="justify-content: center;">
         <div class="container-fluid">
+            <img src="logo_arvore.png" alt="logo" style="padding-right: 10px; ">
             <a class="navbar-brand" href="#">DoaMóveis</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -18,25 +19,28 @@
             <div class="collapse navbar-collapse .text-white id="navbarNavDropdown">
                 <ul class=" navbar-nav  bg-brown  ">
                     <li class="nav-item">
-                        <a class="nav-link active .text-white aria-current="page" href="#" style="color:white">Doe aqui</a>
+                        <a class="nav-link active .text-white aria-current="page" href="#" style="color:white">Doações</a>
                     </li>
                     <li class="nav-item" >
-                        <a class="nav-link" href="#" style="color: white;">ONG'S</a>
+                        <a class="nav-link" href="#" style="color: white;">Quem somos nós</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" style="color: white;">Meus Anúncios</a>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">Chat</a>
+                            <li class="nav-item" >
+                                <a class="nav-link" href="login.html" style="color: white;"> Clientes </a>
+                                <li class="nav-item" ></li>
+                            <a class="nav-link" href="#" style="color: white;">Contato</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
                            Para doação
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Sala</a></li>
-                            <li><a class="dropdown-item" href="#">Quarto</a></li>
-                            <li><a class="dropdown-item" href="#">Cozinha</a></li>
-                            <li><a class="dropdown-item" href="#">Demais dependências</a></li>
+                        <ul class="dropdown-menu" style="background-color: #76453B;">
+                            <li><a class="dropdown-item" style="color: white;"href="#">Sala</a></li> 
+                            <li><a class="dropdown-item" style="color: white; "href="#">Quarto</a></li>
+                            <li><a class="dropdown-item" style="color: white; "href="#">Cozinha</a></li>
+                            <li><a class="dropdown-item" style="color: white; "href="#">Demais dependências</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -46,9 +50,24 @@
 
     <!-- Cabeçalho -->
     <header>
-        <div id="imagem1">
-                <img src="inicial.png" alt="inicial">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="inicial.png" class="d-block w-100" alt="Doe móveis">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="2slide.png" class="d-block w-100" alt="Mobilie sua casa">
+              </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </header>
 
         <div class="hero-content">
@@ -60,19 +79,10 @@
     <!-- Sobre -->
     <section id="about">
         <div class="container">
-            <h2>Sobre Nós</h2>
+            <h2>Quem somos nós?</h2>
             <p>Somos uma plataforma que promove a reutilização de móveis, ajudando o meio ambiente e as comunidades locais.</p>
         </div>
     </section>
-
-    <div class="card" style="width: 18rem;">
-        <img src="mesa.jpg" class="cardimg" alt="imagem1">
-        <div class="card-body">
-          <h2 class="card-title">Mesa</h2>
-          <p class="card-text">Mesa 4 lugares.</p>
-          <a href="#" class="btn btn-primary">Eu quero!</a>
-        </div>
-      </div>
              <!--Imagem 1 -->
     <div class="card" style="width: 15rem;">
         <img src="mesa.jpg" class="cardimg" alt="imagem1">
@@ -82,10 +92,11 @@
           <a href="#" class="btn btn-success">Eu quero!</a>
         </div>
       </div>
+    </div>
             <!-- Imagem 2 -->
             <div class="card" style="width: 15rem;">
-                <img src="mesa de computador pinus.jpg" class="cardimg" alt="imagem1">
-                <div class="card-body">
+                <img src="mesa de computador pinus.jpg" class="cardimg" alt="imagem2" style="display: inline-flexbox;">
+                <div class="card-body" >
                   <h2 class="card-title">Mesa Desktop</h2>
                   <p class="card-text">Mesa computador em pinus.</p>
                   <a href="#" class="btn btn-success">Eu quero!</a>
@@ -93,7 +104,7 @@
               </div>
             <!-- Imagem 3 -->
             <div class="card" style="width: 15rem;">
-                <img src="movel cozinha.jpg" class="cardimg" alt="imagem1">
+                <img src="movel cozinha.jpg" class="cardimg" alt="imagem3">
                 <div class="card-body">
                   <h2 class="card-title">Estante de madeira</h2>
                   <p class="card-text">Estante de madeira multifuncional.</p>
