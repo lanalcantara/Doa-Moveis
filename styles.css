@@ -82,7 +82,22 @@ body {
 .hero-content .btn:hover {
   background-color: #76453B;
 }
-
+.page-section.bg-dark {
+  background-color: #76453B! important;
+}
+section h2 {
+  font: size 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.highlight-text{
+  background-color: #76453B;
+  color:#ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display:inline-block;
+  text-align: center;
+}
 section {
   padding: 50px 20px;
 }
