@@ -160,8 +160,15 @@ form {
 }
 
 form label {
-  display: block;
+  display: flex;
   margin-bottom: 5px;
+}
+
+form .centralizaisso{
+justify-content: center;
+align-items: center;
+
+
 }
 
 form input, form textarea {
