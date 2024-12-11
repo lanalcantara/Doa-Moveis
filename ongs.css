@@ -1,0 +1,107 @@
+.ngo-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    color: #e57373;
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  .ngo-logo-container {
+    display: flex;
+    flex-direction: column; /* Alinha a imagem e o nome em coluna */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ngo-name {
+    margin-top: 10px; /* Espaçamento entre a imagem e o nome */
+    text-align: center; /* Alinha o nome ao centro */
+  }
+  
+  .ngo-logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .logo-item {
+    max-width: 150px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ngo-logo {
+    width: 150px;   /* Ajuste a largura desejada */
+    height: 150px;  /* Ajuste a altura desejada */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    margin-bottom: 10px; /* Espaço entre a imagem e o nome */
+  }
+  
+  .ngo-name {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333; /* Cor que combina com seu design */
+}
+
+  .next-btn {
+    background-color: #e57373;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .next-btn:hover {
+    background-color: #f44336;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .col-md-2, .col-sm-4, .col-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

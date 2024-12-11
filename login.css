@@ -1,16 +1,56 @@
+/* Estilos de botões personalizados */
+.btn-custom {
+  background-color: #7b9e35 !important; /* Cor de fundo personalizada */
+  color: #ffffff !important; /* Cor do texto/ícone */
+  border: none !important; /* Remove borda */
+  transition: background-color 0.3s ease; /* Animação para hover */
+  width: 10px;
+  padding: 10px;
+}
 
-  .divider:after,
+/* Cor do ícone dentro do botão */
+.btn-custom i {
+  color: #ffffff !important; /* Ícones com cor branca */
+}
+
+/* Hover: cor de fundo mais escura */
+.btn-custom:hover {
+  background-color: #6e8b30 !important; /* Cor mais escura ao passar o mouse */
+}
+
+/* Hover: cor do ícone mais clara */
+.btn-custom:hover i {
+  color: #ffffff !important; /* Ícone mais claro no hover */
+}
+
+/* Outros estilos personalizados */
+.divider:after,
 .divider:before {
-content: "";
-flex: 1;
-height: 1px;
-background: #eee;
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
 }
 .h-custom {
-height: calc(100% - 73px);
+  height: calc(100% - 73px);
 }
-@media (max-width: 450px) {
-.h-custom {
-height: 100%;
+
+body.full-site-bg-light {
+  background-color: #f3eeec; /* Fundo claro */
+  color: #76453B; /* Cor padrão do texto */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+/* Botões marrons */
+.btn-brown {
+  background-color: #76453B;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-brown:hover {
+  background-color: #5c362c; /* Cor mais escura para hover */
+  color: #ffffff;
 }

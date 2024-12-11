@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoaMóveis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo_arvore.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   
+    <style>
+        /* Garantir que o conteúdo principal preencha o espaço restante, empurrando o footer para o fundo */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Garantir que o conteúdo ocupe o espaço restante */
+        main {
+            flex-grow: 1;
+        }
+
+        footer {
+            background-color: #76453B;
+            color: #fff;
+        }
+
+        .navbar {
+            z-index: 1000;
+            position: relative;
+        }
+
+        /* Centralizar os itens da navbar */
+        .navbar-nav {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        /* Centralizar o conteúdo da seção "Quem já está mudando o mundo..." */
+        .ngo-section .container {
+            text-align: center;
+        }
+
+        /* Ajuste para as imagens dentro da seção */
+        .ngo-logo-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ngo-logo {
+            width: 150px; /* Ajuste o tamanho das imagens */
+            height: 150px;
+            object-fit: cover; /* Mantém a proporção da imagem */
+        }
+
+        .ngo-name {
+            margin-top: 10px; /* Espaçamento entre a imagem e o nome */
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: #76453B;
+        }
+
+        .section-description {
+            font-size: 1.2rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body class="full-site-bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-brown">
+        <div class="container-fluid">
+            <img src="logo_arvore.png" alt="logo" style="padding-right: 10px;">
+            <a class="navbar-brand" href="index.html">DoaMóveis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="novasdoações.html">Novas Doações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="quemsomos.html">Quem somos nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="ongs.html">ONG'S</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="login.html">Doe Aqui</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <section class="ngo-section">
+            <div class="container">
+                <h2 class="section-title">Quem já está mudando o mundo...</h2>
+                <p class="section-description">Essas são algumas das ONG'S que estão mudando o mundo junto a DoaMóveis</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <div class="ngo-logo-container">
+                            <img src="image copy.png" alt="Associação de Apoio à Criança (AAC)" class="ngo-logo img-fluid">
+                            <p class="ngo-name">Associação de Apoio à Criança (AAC)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <div class="ngo-logo-container">
+                            <img src="image copy 2.png" alt="Projeto Cidadão" class="ngo-logo img-fluid">
+                            <p class="ngo-name">Projeto Cidadão</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <div class="ngo-logo-container">
+                            <img src="image copy 3.png" alt="Mãos Amigas" class="ngo-logo img-fluid">
+                            <p class="ngo-name">Mãos Amigas</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <div class="ngo-logo-container">
+                            <img src="image copy 4.png" alt="Casa de Esperança" class="ngo-logo img-fluid">
+                            <p class="ngo-name">Casa de Esperança</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <div class="ngo-logo-container">
+                            <img src="image copy 5.png" alt="Projeto Lar Novo" class="ngo-logo img-fluid">
+                            <p class="ngo-name">Projeto Lar Novo</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 text-center">
+                        <div class="ngo-logo-container">
+                            <img src="image copy 6.png" alt="Doar para Viver" class="ngo-logo img-fluid">
+                            <p class="ngo-name">Doar para Viver</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="text-center py-3">
+        <p>&copy; 2024 DoaMóveis. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

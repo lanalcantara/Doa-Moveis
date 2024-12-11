@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="logo_arvore.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
 </head>
-<body class="full-site-bg">
-    <nav class="navbar navbar-expand-lg bg-brown" style="justify-content: center;">
+<body class="full-site-bg-light">
+    <nav class="navbar navbar-expand-lg bg-brown fixed-top" style="justify-content: center;">
         <div class="container-fluid">
             <img src="logo_arvore.png" alt="logo" style="padding-right: 10px; ">
             <a class="navbar-brand" href="#carouselExampleInterval">DoaMóveis</a>
@@ -19,22 +20,19 @@
             <div class="collapse navbar-collapse .text-white" id="navbarNavDropdown">
                 <ul class=" navbar-nav  bg-brown  ">
                     <li class="nav-item">
-                        <a class="nav-link active .text-white aria-current="page" href="#card" style="color:white">Novas Doações</a>
+                        <a class="nav-link active .text-white aria-current="page" href="novasdoações.html" style="color:white">Novas Doações</a>
                         
                     </li>
                     <li class="nav-item" >
-                        <a class="nav-link" href="#about" style="color: white;">Quem somos nós</a>
+                        <a class="nav-link" href="#btn" style="color: white;">Quem somos nós</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: white;">ONG'S</a>
+                        <a class="nav-link" href="ongs.html" style="color: white;">ONG'S</a>
                         <li class="nav-item">
                             <li class="nav-item" >
-                                <a class="nav-link" href="login.html" style="color: white;"> Seja Membro </a>
+                                <a class="nav-link" href="login.html" style="color: white;"> Doe Aqui </a>
                                 <li class="nav-item" ></li>
-                            <a class="nav-link" href="#" style="color: white;">Saiba como doar</a>
-                    </li>
-                   
-                        
+                           
             </div>
         </div>
     </nav>
@@ -67,144 +65,90 @@
             <p class="lead">Apenas 20-30% dos móveis descartados são reciclados ou reutilizados; o restante vai para aterros sanitários.</p>
             <div class="d-flex justify-content-center my-4">
               <div class="me-5">
-                <h2 class="text-success">12</h2>
-                <p>Anos com captação online</p>
+                <h2 class="text-custom">25%</h2>
+                <p>a população vive em situação de vulnerabilidade social, no Brasil</p>
               </div>
               <div>
-                <h2 class="text-success">+R$320mi</h2>
-                <p>Arrecadados para organizações filantrópicas</p>
+                <h2 class="text-custom">+R$20 mi</h2>
+                <p>De móveis são descartados por ano no Brasil</p>
               </div>
+              
             </div>
-            <a href="#demo" class="btn btn-danger btn-lg">AGENDAR DEMONSTRAÇÃO</a>
+            <a href="" id="btn" class="btn btn-lg" style="background-color: #87AF3E; color: #fff; border: none; text-decoration: none;">Quem somos nós?</a>
           </div>
         </section>
-        
-    <!-- Sobre -->
-    <section id="about">
-        <div class="container" >
-            <h2>Quem somos nós?</h2>
-            <p style="align-items: center; padding-right: 120px;">Somos uma plataforma que promove a reutilização de móveis, ajudando o meio ambiente e as comunidades locais.</p>
-            <br> Conheça nossa equipe </br>
-        </div>
-    </section>
-    <div class="container my-4">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
-      <div class="card" id="card">
-            <img src="super sofá.jpg" class="card-img-top" alt="sofá branco enorme">
-            <div class="card-body">
-              <h5 class="card-title">Super Sofá</h5>
-              <p class="card-text">Sofá branco.</p>
-              <p class="card-text text-muted">Estado: Em perfeito estado!</p>
-              <p class="card-text text-muted">Usado por menos de 4 anos</p>
-              <p class="card-text"><small class="text-body-secondary">Postado 1 dias atrás</small></p>
-
-            </div>
-          </div>
-        <div class="card">
-          <img src="cadeira de balanço.jpg" class="card-img-top" alt="cadeira madeira">
-          <div class="card-body">
-            <h5 class="card-title">Cadeira de Balanço</h5>
-            <p class="card-text"> Cadeira de balanço, madeira. </p>
-            <p class="card-text text-muted">Estado: Em perfeito estado!</p>
-              <p class="card-text text-muted">Uso para uma vida toda</p>
-            <p class="card-text"><small class="text-body-secondary">Postado 2 dias atrás</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="escrivaninha.jpg" class="card-img-top" alt="escrivaninha branca">
-          <div class="card-body">
-            <h5 class="card-title">Escrivaninha Branca </h5>
-            <p class="card-text">Escrivaninha Branca com estante</p>
-            <p class="card-text text-muted">Estado: Em perfeito estado!</p>
-              <p class="card-text text-muted">Precisa ser parafusada na parede</p>
-            <p class="card-text"><small class="text-body-secondary">Postado 3 dias atrás</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="cabeceira.jpg" class="card-img-top" alt="cabeceira">
-          <div class="card-body">
-            <h5 class="card-title">Dupla mesa de cabeceira</h5>
-            <p class="card-text">Mesa de cabeceira em dobro</p>
-            <p class="card-text text-muted">Estado:Descasques de cor!Totalmente funcional, gavetas em ótimo estado</p>
-            <p class="card-text"><small class="text-body-secondary">Postado 3 dias atrás</small></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container my-4">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
-        <div class="card">
-            <img src="mesa de cabeceira.jpg" class="card-img-top" alt="mesa de cabeceira">
-            <div class="card-body">
-              <h5 class="card-title">Mesa de Canto</h5>
-              <p class="card-text">Mesa de Canto modelo vintage</p>
-              <p class="card-text text-muted">Estado: Descasques de cor e ferrugem!</p>
-              <p class="card-text"><small class="text-body-secondary">Postado 5 dias atrás</small></p>
-            </div>
-          </div>
-        <div class="card">
-          <img src="criado-mudo.jpg" class="card-img-top" alt="mesa de centro">
-          <div class="card-body">
-            <h5 class="card-title">Criado-mudo</h5>
-            <p class="card-text"> Criado-mudo em madeira</p>
-            <p class="card-text text-muted">Estado: Madeira antiga e não muito boa, arranhões e descasques!</p>
-            <p class="card-text"><small class="text-body-secondary">Postado 7 dia atrás</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="puff.jpg" class="card-img-top" alt="puff quadrado">
-          <div class="card-body">
-            <h5 class="card-title">Puff quadrado em dobro</h5>
-            <p class="card-text">Dupla de puff quadrado</p>
-            <p class="card-text text-muted">Estado: Em perfeito estado!</p>
-              <p class="card-text text-muted">Usado por menos de 2 anos</p>
-            <p class="card-text"><small class="text-body-secondary">Postado 9 dias atrás</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="poltrona.jpg" class="card-img-top" alt="poltrona">
-          <div class="card-body">
-            <h5 class="card-title">Poltrona Floral</h5>
-            <p class="card-text">Poltrona Floral única</p>
-            <p class="card-text text-muted">Estado: Necessário uma limpeza profissional, não há ferrugem ou rasgões!</p>
-            <p class="card-text"><small class="text-body-secondary">Postado 11 dias atrás</small></p>
-          </div>
-        </div>
-      </div>
-<section class="page-section bg-dark text-white" style="background-image: url('images/banner.jpg'); background-size: cover; background-position: center;">
-    <div class="container px-4 px-lg-5 text-center">
-        <h2 class="mb-4">
-            <span class="highlight-text">Faça sua Boa Ação Doando!</span>
-        </h2>
-        <a class="btn btn-light btn-xl" href="#contact">Divulgue aqui</a>
-    </div>
-</section>
-
-    <!-- Serviços -->
-    <section id="services">
         <div class="container">
-            <h2>O que Oferecemos</h2>
-            <div class="grid">
-                <div class="grid-item">
-                    <h3>Doações de Móveis</h3>
-                    <p>Encontre móveis doados perto de você.</p>
-                </div>
-                <div class="grid-item">
-                    <h3>Conexão Solidária</h3>
-                    <p>Conectamos doadores e receptores com facilidade.</p>
-                </div>
-                <div class="grid-item">
-                    <h3>Sustentabilidade</h3>
-                    <p>Reutilizar é o primeiro passo para preservar o planeta.</p>
-                </div>
+          <div class="row">
+            <!-- Primeira Foto -->
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="douglas.jpg" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;" alt="Pessoa 1">
+
+              <h5>Douglas Filho</h5>
             </div>
+            <!-- Segunda Foto -->
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="image.png" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;"alt="Pessoa 2">
+              <h5>João Rozendo</h5>
+            </div>
+            <!-- Terceira Foto -->
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="eu.jpg" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;" alt="Pessoa 3">
+              <h5>Lana Azevedo</h5>
+            </div>
+            <!-- Quarta Foto -->
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="louisy.png" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;" alt="Pessoa 4">
+              <h5>Louisy Amorim</h5>
+            </div>
+            
+            <!-- Quinta Foto -->
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="pedro.png" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;" alt="Pessoa 5">
+              <h5>Pedro Veloso</h5>
+            </div>
+            <!-- Sexta Foto -->
+            <div class="col-md-4 col-sm-6 text-center">
+              <img src="rihan.jpeg" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;" alt="Pessoa 5">
+              <h5>Rihan Cabral</h5>
+            </div>
+          </div>
+        </div>
+        
+      
+      <section class="page-section text-white" style="background-color: #76453B; background-size: cover; background-position: center;">
+        <div class="container px-4 px-lg-5 text-center">
+            <h2 class="mb-4">
+                <span class="highlight-text"> O que é o projeto DoaMóveis?</span>
+            </h2>
+            <a href="quemsomos.html" id="btn" class="btn btn-lg" style="background-color: #87AF3E; color: #fff; border: none; text-decoration: none;">Saiba sobre</a>
         </div>
     </section>
-
+    
+    <section id="services">
+      <div class="container">
+          <h2>O que Oferecemos</h2>
+          <div class="grid">
+              <div class="grid-item">
+                  <h3>Doações de Móveis</h3>
+                  <p>Encontre móveis doados perto de você.</p>
+              </div>
+              <div class="grid-item">
+                  <h3>Conexão Solidária</h3>
+                  <p>Conectamos doadores e receptores com facilidade.</p>
+              </div>
+              <div class="grid-item">
+                  <h3>Sustentabilidade</h3>
+                  <p>Reutilizar é o primeiro passo para preservar o planeta.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  
     <!-- Contato -->
     <section id="contact">
         <div class="container">
-            <h2>Contato</h2>
+            <h2>Deixe suas dúvidas aqui</h2>
             <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
                 <label class="centralizaisso" for="name">Nome:</label>
                 <input type="text" id="name" name="name" required>
@@ -220,7 +164,10 @@
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+
+ <!-- Rodapé -->
+ <footer class="text-center py-3" style="background-color: #76453B; color: #fff;">
+  <p>&copy; 2024 DoaMóveis. Todos os direitos reservados.</p>
+</footer>
 </body>
 </html>
