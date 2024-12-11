@@ -27,26 +27,15 @@
 .card a:hover {
     text-decoration: none;
     color: inherit;
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.footer {
-    width: 100%;
-    background-color: #76453B;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: auto; /* Garante que o footer vá para o final da tela */
-}
-.container {
-  margin-bottom: 100px; 
-}
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;  /* Organiza o conteúdo da página em uma coluna */
+  }
+  
+  /* Conteúdo da página */
+  .content {
+      flex: 1;  /* O conteúdo vai preencher todo o espaço disponível, empurrando o footer para o final */
+  }
+  

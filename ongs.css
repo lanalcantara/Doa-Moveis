@@ -104,4 +104,45 @@
     justify-content: center;
     align-items: center;
   }
-  
+  /* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #76453B; /* Cor de fundo marrom da navbar */
+  color: #f3eeec;
+  display: flex;
+  align-items: center;
+  padding: 0 20px; /* Ajusta espaçamento lateral */
+  z-index: 10;
+}
+
+.navbar .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center; /* Alinha o logo e texto verticalmente */
+  gap: 5px; /* Espaço entre o ícone e o texto */
+  margin-right: 1px; /* Aproxima o logo dos links da navbar */
+}
+
+.navbar .brand img {
+  height: 24px; /* Ajusta a altura do ícone */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Espaço entre os itens da navbar */
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
